@@ -1,0 +1,211 @@
+    1  ls
+    2  pwd
+    3  ls -a
+    4  more .bashrc
+    5  cd /rgrps/bh_class
+    6  cd /rsgrps/bh_class
+    7  ls
+    8  mkdir rebekahewaller
+    9  cd rebekahewaller
+   10  ls
+   11  cd
+   12  cd .ssh
+   13  ls
+   14  ssh-keygen
+   15  ls
+   16  more id_rsa.pub
+   17  cd /rsgrps/bh_class/
+   18  ls
+   19  cd rebekahewaller/
+   20  ls
+   21  git clone git@github.com:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA9bGx4HaLn0Qw4xyv8Rrs2arSWxIb+VkFnriNph5FXvqz
+   22  vr5hdoURs/Mgq0pYJfHNR5VGWQgDYhSIwZ8tABaW4u2Uj9cLEGL3+5qc+RQXGMUYDDptBapJKAMTtbcO
+   23  eDR/OeUe6Idd/WMEKgdJcZ/VCr98bNb5evwoX2RkKLxaF2ssShy/JiHCq4wR88icRWob06PQFAWpJ5XI
+   24  CQlLr5aBzjY1IhCt73CVjHQZEXat127tOm/3iEuY1KdWB51W0+3VAgjfgzqGgfME6U3fMrfhaoXCZt/c
+   25  41KdW9xKL1hCKTzwHHeD0Bc6C37bgkjYI3UN+GZlGpR5Cu9eGU/KrysK7w== rebekahewaller@logi
+   26  clear
+   27  ls
+   28  git clone git@github.com:rebekahewaller/biosys-analytics.git
+   29  ls
+   30  cd biosys-analytics/
+   31  ls
+   32  git pull upstream master
+   33  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+   34  git pull upstream master
+   35  pwd
+   36  ls
+   37  cd assignments/
+   38  vi ~/.bashrc
+   39  pwd
+   40  ls
+   41  cd assignments/
+   42  ls
+   43  cd 01-unix
+   44  ls
+   45  more README.md 
+   46  ls
+   47  cd ..
+   48  ls
+   49  more 01-unix-grad/
+   50  cd 01-unix-grad/
+   51  ls
+   52  more 01-unix-grad.txt 
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd lectures
+   59  git
+   60  git pull upstream master
+   61  whoami
+   62  w
+   63  man
+   64  echo hello
+   65  cowsay hello
+   66  cowsay
+   67  env
+   68  ls
+   69  file
+   70  tree $HOME
+   71  tree
+   72  tree HOME
+   73  git pull upstream master
+   74  tree
+   75  ls
+   76  pwd
+   77  echo $PWD
+   78  tree $HOME
+   79  ls $HOME
+   80  cd
+   81  ls
+   82  git
+   83  git pull upstream master
+   84  cd
+   85  ls
+   86  cd /usr/local/bin
+   87  ls
+   88  env
+   89  env | head
+   90  env | grep TERM
+   91  fortune
+   92  man wget
+   93  wget --help | grep cobbler
+   94  $USER
+   95  cd
+   96  cd /rsgrps/bh_class/
+   97  git
+   98  SECRET=ilikecake
+   99  echo $SECRET
+  100  git pull upstream master
+  101  mkdir "files"
+  102  pwd
+  103  mkdir files
+  104  ls
+  105  wget --help
+  106  wget https://www.constitution.org/usdeclar.txt
+  107  ls
+  108  cd files
+  109  wget https://www.usconstitution.net/const.txt
+  110  wget https://www.constitution.org/usdeclar.txt
+  111  wget https://www.gutenberg.org/files/25344/25344-0.txt > scarlet.txt
+  112  ls
+  113  head scarlet.txt
+  114  more scarlet.txt 
+  115  less scarlet.txt 
+  116  rm scarlet.txt
+  117  ls
+  118  rm 25344-0.txt
+  119  ls
+  120  touch scarlet.txt
+  121  wget https://www.gutenberg.org/files/25344/25344-0.txt >> scarlet.txt
+  122  ls
+  123  head scarlet.txt
+  124  rm 25344-0.txt
+  125  rm scarlet.txt
+  126  ls
+  127  wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt 
+  128  ls --help
+  129  ls - l
+  130  ls -l
+  131  wc -h
+  132  wc --help
+  133  wc -l
+  134  wc -l files
+  135  wc -l *
+  136  find --help
+  137  find -size gt50k
+  138  find size- +50k
+  139  find .size +50k
+  140  ls
+  141  find .-size +50k
+  142  find .-size+50k
+  143  find . -size +50k
+  144  file const.txt
+  145  git upstream pull master
+  146  git pull upstream master
+  147  mkdir files
+  148  ls
+  149  rm usdeclar.txt 
+  150  rm files
+  151  git pull upstream master
+  152  ls
+  153  rm files
+  154  rmdir files
+  155  cd files
+  156  ls
+  157  rm const.txt scarlet.txt usdeclar.txt 
+  158  cd ..
+  159  ls
+  160  rmdir files
+  161  ls
+  162  git pull upstream master
+  163  ls
+  164  mkdir files
+  165  wget https://www.constitution.org/usdeclar.txt
+  166  wget https://www.usconstitution.net/const.txt
+  167  wget --help
+  168  wget -O=scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt 
+  169  rm =scarlet.txt
+  170  ls
+  171  rm const.txt usdeclar.txt 
+  172  rmdir files
+  173  ls
+  174  mkdir files
+  175  cd files
+  176  wget https://www.constitution.org/usdeclar.txt
+  177  wget https://www.usconstitution.net/const.txt
+  178  wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt
+  179  ls --help
+  180  ls -l
+  181  wc --help
+  182  wc -l
+  183  wc -l *
+  184  find --help
+  185  find files -size+50k
+  186  find files -size +50k
+  187  find -size +50k
+  188  type const.txt 
+  189  file const.txt 
+  190  md5sum *
+  191  df *
+  192  du -ssh .
+  193  du -ssh *
+  194  wc --help
+  195  grep --help
+  196  grep -i *
+  197  env
+  198  grep -i judge * | wc -l
+  199  grep -i -H human *
+  200  grep -i -l human *
+  201  wc -w scarlet ./scarlet.txt 
+  202  grep -i -o scarlet scarlet.txt | wc -l
+  203  head --help
+  204  head -n 15 * > foo
+  205  file foo
+  206  file --help
+  207  head -20 foo
+  208  wc -l foo
+  209  rm foo
+  210  ls
+  211  history > cmds

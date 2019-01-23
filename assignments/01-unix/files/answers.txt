@@ -1,0 +1,15 @@
+$ ls -l
+total 592
+-rw-r--r-- 1 rebekahewaller bh_class   4816 Jan 22 22:27 cmds
+-rw-r--r-- 1 rebekahewaller bh_class  45119 Jan 22 17:21 const.txt
+-rw-r--r-- 1 rebekahewaller bh_class 525464 Jan 23  2015 scarlet.txt
+-rw-r--r-- 1 rebekahewaller bh_class   8685 Jan 22 17:45 usdeclar.
+
+
+
+total 592
+-rw-r--r-- 1 rebekahewaller bh_class      0 Jan 23 11:25 answers.txt
+-rw-r--r-- 1 rebekahewaller bh_class   4816 Jan 22 22:27 cmds
+-rw-r--r-- 1 rebekahewaller bh_class  45119 Jan 22 17:21 const.txt
+-rw-r--r-- 1 rebekahewaller bh_class 525464 Jan 23  2015 scarlet.txt
+-rw-r--r-- 1 rebekahewaller bh_class   8685 Jan 22 17:45 usdeclar.txt
