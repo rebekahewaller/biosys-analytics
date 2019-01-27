@@ -1,0 +1,969 @@
+    1  ls
+    2  pwd
+    3  ls -a
+    4  more .bashrc
+    5  cd /rgrps/bh_class
+    6  cd /rsgrps/bh_class
+    7  ls
+    8  mkdir rebekahewaller
+    9  cd rebekahewaller
+   10  ls
+   11  cd
+   12  cd .ssh
+   13  ls
+   14  ssh-keygen
+   15  ls
+   16  more id_rsa.pub
+   17  cd /rsgrps/bh_class/
+   18  ls
+   19  cd rebekahewaller/
+   20  ls
+   21  git clone git@github.com:ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA9bGx4HaLn0Qw4xyv8Rrs2arSWxIb+VkFnriNph5FXvqz
+   22  vr5hdoURs/Mgq0pYJfHNR5VGWQgDYhSIwZ8tABaW4u2Uj9cLEGL3+5qc+RQXGMUYDDptBapJKAMTtbcO
+   23  eDR/OeUe6Idd/WMEKgdJcZ/VCr98bNb5evwoX2RkKLxaF2ssShy/JiHCq4wR88icRWob06PQFAWpJ5XI
+   24  CQlLr5aBzjY1IhCt73CVjHQZEXat127tOm/3iEuY1KdWB51W0+3VAgjfgzqGgfME6U3fMrfhaoXCZt/c
+   25  41KdW9xKL1hCKTzwHHeD0Bc6C37bgkjYI3UN+GZlGpR5Cu9eGU/KrysK7w== rebekahewaller@logi
+   26  clear
+   27  ls
+   28  git clone git@github.com:rebekahewaller/biosys-analytics.git
+   29  ls
+   30  cd biosys-analytics/
+   31  ls
+   32  git pull upstream master
+   33  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+   34  git pull upstream master
+   35  pwd
+   36  ls
+   37  cd assignments/
+   38  vi ~/.bashrc
+   39  pwd
+   40  ls
+   41  cd assignments/
+   42  ls
+   43  cd 01-unix
+   44  ls
+   45  more README.md 
+   46  ls
+   47  cd ..
+   48  ls
+   49  more 01-unix-grad/
+   50  cd 01-unix-grad/
+   51  ls
+   52  more 01-unix-grad.txt 
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd lectures
+   59  git
+   60  git pull upstream master
+   61  whoami
+   62  w
+   63  man
+   64  echo hello
+   65  cowsay hello
+   66  cowsay
+   67  env
+   68  ls
+   69  file
+   70  tree $HOME
+   71  tree
+   72  tree HOME
+   73  git pull upstream master
+   74  tree
+   75  ls
+   76  pwd
+   77  echo $PWD
+   78  tree $HOME
+   79  ls $HOME
+   80  cd
+   81  ls
+   82  git
+   83  git pull upstream master
+   84  cd
+   85  ls
+   86  cd /usr/local/bin
+   87  ls
+   88  env
+   89  env | head
+   90  env | grep TERM
+   91  fortune
+   92  man wget
+   93  wget --help | grep cobbler
+   94  $USER
+   95  cd
+   96  cd /rsgrps/bh_class/
+   97  git
+   98  SECRET=ilikecake
+   99  echo $SECRET
+  100  git pull upstream master
+  101  mkdir "files"
+  102  pwd
+  103  mkdir files
+  104  ls
+  105  wget --help
+  106  wget https://www.constitution.org/usdeclar.txt
+  107  ls
+  108  cd files
+  109  wget https://www.usconstitution.net/const.txt
+  110  wget https://www.constitution.org/usdeclar.txt
+  111  wget https://www.gutenberg.org/files/25344/25344-0.txt > scarlet.txt
+  112  ls
+  113  head scarlet.txt
+  114  more scarlet.txt 
+  115  less scarlet.txt 
+  116  rm scarlet.txt
+  117  ls
+  118  rm 25344-0.txt
+  119  ls
+  120  touch scarlet.txt
+  121  wget https://www.gutenberg.org/files/25344/25344-0.txt >> scarlet.txt
+  122  ls
+  123  head scarlet.txt
+  124  rm 25344-0.txt
+  125  rm scarlet.txt
+  126  ls
+  127  wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt 
+  128  ls --help
+  129  ls - l
+  130  ls -l
+  131  wc -h
+  132  wc --help
+  133  wc -l
+  134  wc -l files
+  135  wc -l *
+  136  find --help
+  137  find -size gt50k
+  138  find size- +50k
+  139  find .size +50k
+  140  ls
+  141  find .-size +50k
+  142  find .-size+50k
+  143  find . -size +50k
+  144  file const.txt
+  145  git upstream pull master
+  146  git pull upstream master
+  147  mkdir files
+  148  ls
+  149  rm usdeclar.txt 
+  150  rm files
+  151  git pull upstream master
+  152  ls
+  153  rm files
+  154  rmdir files
+  155  cd files
+  156  ls
+  157  rm const.txt scarlet.txt usdeclar.txt 
+  158  cd ..
+  159  ls
+  160  rmdir files
+  161  ls
+  162  git pull upstream master
+  163  [rebekahewaller@login2 biosys-analytics]$ git pull upstream master
+  164  From https://github.com/hurwitzlab/biosys-analytics
+  165   * branch            master     -> FETCH_HEAD
+  166  Already up-to-date.
+  167  [rebekahewaller@login2 biosys-analytics]$ ls
+  168  assignments  bin  data/examples  lectures  LICENSE  README.md
+  169  [rebekahewaller@login2 biosys-analytics]$ mkdir files
+  170  [rebekahewaller@login2 biosys-analytics]$ wget https://www.constitution.org/usdeclar.txt
+  171  --2019-01-22 21:21:40--  https://www.constitution.org/usdeclar.txt
+  172  Resolving www.constitution.org... 54.153.63.33, 52.52.207.176, 52.52.39.236, ...
+  173  Connecting to www.constitution.org|54.153.63.33|:443... connected.
+  174  HTTP request sent, awaiting response... 200 OK
+  175  Length: unspecified [text/plain]
+  176  Saving to: “usdeclar.txt”
+  177      [ <=>                                   ] 8,685       --.-K/s   in 0s      
+  178  2019-01-22 21:21:40 (54.7 MB/s) - “usdeclar.txt” saved [8685]
+  179  [rebekahewaller@login2 biosys-analytics]$ wget https://www.usconstitution.net/const.txt
+  180  --2019-01-22 21:21:50--  https://www.usconstitution.net/const.txt
+  181  Resolving www.usconstitution.net... 52.52.214.82
+  182  Connecting to www.usconstitution.net|52.52.214.82|:443... connected.
+  183  HTTP request sent, awaiting response... 200 OK
+  184  Length: unspecified [text/plain]
+  185  Saving to: “const.txt”
+  186      [ <=>                                   ] 45,119      --.-K/s   in 0.04s   
+  187  2019-01-22 21:21:50 (1.07 MB/s) - “const.txt” saved [45119]
+  188  [rebekahewaller@login2 biosys-analytics]$ wget --help
+  189  GNU Wget 1.12, a non-interactive network retriever.
+  190  Usage: wget [OPTION]... [URL]...
+  191  Mandatory arguments to long options are mandatory for short options too.
+  192  Startup:
+  193    -V,  --version           display the version of Wget and exit.
+  194    -h,  --help              print this help.
+  195    -b,  --background        go to background after startup.
+  196    -e,  --execute=COMMAND   execute a ‘.wgetrc’-style command.
+  197  Logging and input file:
+  198    -o,  --output-file=FILE    log messages to FILE.
+  199    -a,  --append-output=FILE  append messages to FILE.
+  200    -d,  --debug               print lots of debugging information.
+  201    -q,  --quiet               quiet (no output).
+  202    -v,  --verbose             be verbose (this is the default).
+  203    -nv, --no-verbose          turn off verboseness, without being quiet.
+  204    -i,  --input-file=FILE     download URLs found in local or external FILE.
+  205    -F,  --force-html          treat input file as HTML.
+  206    -B,  --base=URL            resolves HTML input-file links (-i -F)
+  207                               relative to URL.
+  208  Download:
+  209    -t,  --tries=NUMBER            set number of retries to NUMBER (0 unlimits).
+  210         --retry-connrefused       retry even if connection is refused.
+  211    -O,  --output-document=FILE    write documents to FILE.
+  212    -nc, --no-clobber              skip downloads that would download to
+  213                                   existing files.
+  214    -c,  --continue                resume getting a partially-downloaded file.
+  215         --progress=TYPE           select progress gauge type.
+  216    -N,  --timestamping            don’t re-retrieve files unless newer than
+  217                                   local.
+  218    -S,  --server-response         print server response.
+  219         --spider                  don’t download anything.
+  220    -T,  --timeout=SECONDS         set all timeout values to SECONDS.
+  221         --dns-timeout=SECS        set the DNS lookup timeout to SECS.
+  222         --connect-timeout=SECS    set the connect timeout to SECS.
+  223         --read-timeout=SECS       set the read timeout to SECS.
+  224    -w,  --wait=SECONDS            wait SECONDS between retrievals.
+  225         --waitretry=SECONDS       wait 1..SECONDS between retries of a retrieval.
+  226         --random-wait             wait from 0...2*WAIT secs between retrievals.
+  227         --no-proxy                explicitly turn off proxy.
+  228    -Q,  --quota=NUMBER            set retrieval quota to NUMBER.
+  229         --bind-address=ADDRESS    bind to ADDRESS (hostname or IP) on local host.
+  230         --limit-rate=RATE         limit download rate to RATE.
+  231         --no-dns-cache            disable caching DNS lookups.
+  232         --restrict-file-names=OS  restrict chars in file names to ones OS allows.
+  233         --ignore-case             ignore case when matching files/directories.
+  234    -4,  --inet4-only              connect only to IPv4 addresses.
+  235    -6,  --inet6-only              connect only to IPv6 addresses.
+  236         --prefer-family=FAMILY    connect first to addresses of specified family,
+  237                                   one of IPv6, IPv4, or none.
+  238         --user=USER               set both ftp and http user to USER.
+  239         --password=PASS           set both ftp and http password to PASS.
+  240         --ask-password            prompt for passwords.
+  241         --no-iri                  turn off IRI support.
+  242         --local-encoding=ENC      use ENC as the local encoding for IRIs.
+  243         --remote-encoding=ENC     use ENC as the default remote encoding.
+  244  Directories:
+  245    -nd, --no-directories           don’t create directories.
+  246    -x,  --force-directories        force creation of directories.
+  247    -nH, --no-host-directories      don’t create host directories.
+  248         --protocol-directories     use protocol name in directories.
+  249    -P,  --directory-prefix=PREFIX  save files to PREFIX/...
+  250         --cut-dirs=NUMBER          ignore NUMBER remote directory components.
+  251  HTTP options:
+  252         --http-user=USER        set http user to USER.
+  253         --http-password=PASS    set http password to PASS.
+  254         --no-cache              disallow server-cached data.
+  255         --default-page=NAME     Change the default page name (normally
+  256                                 this is ‘index.html’.).
+  257    -E,  --adjust-extension      save HTML/CSS documents with proper extensions.
+  258         --ignore-length         ignore ‘Content-Length’ header field.
+  259         --header=STRING         insert STRING among the headers.
+  260         --max-redirect          maximum redirections allowed per page.
+  261         --proxy-user=USER       set USER as proxy username.
+  262         --proxy-password=PASS   set PASS as proxy password.
+  263         --referer=URL           include ‘Referer: URL’ header in HTTP request.
+  264         --save-headers          save the HTTP headers to file.
+  265    -U,  --user-agent=AGENT      identify as AGENT instead of Wget/VERSION.
+  266         --no-http-keep-alive    disable HTTP keep-alive (persistent connections).
+  267         --no-cookies            don’t use cookies.
+  268         --load-cookies=FILE     load cookies from FILE before session.
+  269         --save-cookies=FILE     save cookies to FILE after session.
+  270         --keep-session-cookies  load and save session (non-permanent) cookies.
+  271         --post-data=STRING      use the POST method; send STRING as the data.
+  272         --post-file=FILE        use the POST method; send contents of FILE.
+  273         --content-disposition   honor the Content-Disposition header when
+  274                                 choosing local file names (EXPERIMENTAL).
+  275         --auth-no-challenge     send Basic HTTP authentication information
+  276                                 without first waiting for the server’s
+  277                                 challenge.
+  278  HTTPS (SSL/TLS) options:
+  279         --secure-protocol=PR     choose secure protocol, one of auto, SSLv2,
+  280                                  SSLv3, and TLSv1.
+  281         --no-check-certificate   don’t validate the server’s certificate.
+  282         --certificate=FILE       client certificate file.
+  283         --certificate-type=TYPE  client certificate type, PEM or DER.
+  284         --private-key=FILE       private key file.
+  285         --private-key-type=TYPE  private key type, PEM or DER.
+  286         --ca-certificate=FILE    file with the bundle of CA’s.
+  287         --ca-directory=DIR       directory where hash list of CA’s is stored.
+  288         --random-file=FILE       file with random data for seeding the SSL PRNG.
+  289         --egd-file=FILE          file naming the EGD socket with random data.
+  290  FTP options:
+  291         --ftp-user=USER         set ftp user to USER.
+  292         --ftp-password=PASS     set ftp password to PASS.
+  293         --no-remove-listing     don’t remove ‘.listing’ files.
+  294         --no-glob               turn off FTP file name globbing.
+  295         --no-passive-ftp        disable the “passive” transfer mode.
+  296         --retr-symlinks         when recursing, get linked-to files (not dir).
+  297  Recursive download:
+  298    -r,  --recursive          specify recursive download.
+  299    -l,  --level=NUMBER       maximum recursion depth (inf or 0 for infinite).
+  300         --delete-after       delete files locally after downloading them.
+  301    -k,  --convert-links      make links in downloaded HTML or CSS point to
+  302                              local files.
+  303    -K,  --backup-converted   before converting file X, back up as X.orig.
+  304    -m,  --mirror             shortcut for -N -r -l inf --no-remove-listing.
+  305    -p,  --page-requisites    get all images, etc. needed to display HTML page.
+  306         --strict-comments    turn on strict (SGML) handling of HTML comments.
+  307  Recursive accept/reject:
+  308    -A,  --accept=LIST               comma-separated list of accepted extensions.
+  309    -R,  --reject=LIST               comma-separated list of rejected extensions.
+  310    -D,  --domains=LIST              comma-separated list of accepted domains.
+  311         --exclude-domains=LIST      comma-separated list of rejected domains.
+  312         --follow-ftp                follow FTP links from HTML documents.
+  313         --follow-tags=LIST          comma-separated list of followed HTML tags.
+  314         --ignore-tags=LIST          comma-separated list of ignored HTML tags.
+  315    -H,  --span-hosts                go to foreign hosts when recursive.
+  316    -L,  --relative                  follow relative links only.
+  317    -I,  --include-directories=LIST  list of allowed directories.
+  318    --trust-server-names  use the name specified by the redirection url last component.
+  319    -X,  --exclude-directories=LIST  list of excluded directories.
+  320    -np, --no-parent                 don’t ascend to the parent directory.
+  321  Mail bug reports and suggestions to <bug-wget@gnu.org>.
+  322  [rebekahewaller@login2 biosys-analytics]$ wget -O=scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt 
+  323  --2019-01-22 21:24:20--  https://www.gutenberg.org/files/25344/25344-0.txt
+  324  Resolving www.gutenberg.org... 152.19.134.47, 2610:28:3090:3000:0:bad:cafe:47
+  325  Connecting to www.gutenberg.org|152.19.134.47|:443... connected.
+  326  HTTP request sent, awaiting response... 200 OK
+  327  Length: 525464 (513K) [text/plain]
+  328  Saving to: “=scarlet.txt”
+  329  100%[======================================>] 525,464     1.03M/s   in 0.5s    
+  330  2019-01-22 21:24:21 (1.03 MB/s) - “=scarlet.txt” saved [525464/525464]
+  331  [rebekahewaller@login2 biosys-analytics]$ rm =scarlet.txt
+  332  [rebekahewaller@login2 biosys-analytics]$ ls
+  333  assignments  const.txtexamples  lectures  README.md
+  334  bin     data/files  LICENSE   usdeclar.txt
+  335  [rebekahewaller@login2 biosys-analytics]$ rm const.txt usdeclar.txt 
+  336  [rebekahewaller@login2 biosys-analytics]$ rmdir files
+  337  [rebekahewaller@login2 biosys-analytics]$ ls
+  338  assignments  bin  data/examples  lectures  LICENSE  README.md
+  339  [rebekahewaller@login2 biosys-analytics]$ mkdir files
+  340  [rebekahewaller@login2 biosys-analytics]$ cd files
+  341  [rebekahewaller@login2 files]$ wget https://www.constitution.org/usdeclar.txt
+  342  --2019-01-22 21:28:08--  https://www.constitution.org/usdeclar.txt
+  343  Resolving www.constitution.org... 54.153.63.33, 52.8.181.78, 52.52.40.206, ...
+  344  Connecting to www.constitution.org|54.153.63.33|:443... connected.
+  345  HTTP request sent, awaiting response... 200 OK
+  346  Length: unspecified [text/plain]
+  347  Saving to: “usdeclar.txt”
+  348      [ <=>                                   ] 8,685       --.-K/s   in 0s      
+  349  2019-01-22 21:28:09 (52.0 MB/s) - “usdeclar.txt” saved [8685]
+  350  [rebekahewaller@login2 files]$ wget https://www.usconstitution.net/const.txt
+  351  --2019-01-22 21:28:18--  https://www.usconstitution.net/const.txt
+  352  Resolving www.usconstitution.net... 52.52.40.206
+  353  Connecting to www.usconstitution.net|52.52.40.206|:443... connected.
+  354  HTTP request sent, awaiting response... 200 OK
+  355  Length: unspecified [text/plain]
+  356  Saving to: “const.txt”
+  357      [ <=>                                   ] 45,119      --.-K/s   in 0.04s   
+  358  2019-01-22 21:28:18 (1.10 MB/s) - “const.txt” saved [45119]
+  359  [rebekahewaller@login2 files]$ wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt
+  360  --2019-01-22 21:29:12--  https://www.gutenberg.org/files/25344/25344-0.txt
+  361  Resolving www.gutenberg.org... 152.19.134.47, 2610:28:3090:3000:0:bad:cafe:47
+  362  Connecting to www.gutenberg.org|152.19.134.47|:443... connected.
+  363  HTTP request sent, awaiting response... 200 OK
+  364  Length: 525464 (513K) [text/plain]
+  365  Saving to: “scarlet.txt”
+  366  100%[======================================>] 525,464      788K/s   in 0.7s    
+  367  2019-01-22 21:29:13 (788 KB/s) - “scarlet.txt” saved [525464/525464]
+  368  [rebekahewaller@login2 files]$ ls --help
+  369  Usage: ls [OPTION]... [FILE]...
+  370  List information about the FILEs (the current directory by default).
+  371  Sort entries alphabetically if none of -cftuvSUX nor --sort.
+  372  Mandatory arguments to long options are mandatory for short options too.
+  373    -a, --all                  do not ignore entries starting with .
+  374    -A, --almost-all           do not list implied . and ..
+  375        --author               with -l, print the author of each file
+  376    -b, --escape               print octal escapes for nongraphic characters
+  377        --block-size=SIZE      use SIZE-byte blocks.  See SIZE format below
+  378    -B, --ignore-backups       do not list implied entries ending with ~
+  379    -c                         with -lt: sort by, and show, ctime (time of last
+  380                                 modification of file status information)
+  381                                 with -l: show ctime and sort by name
+  382                                 otherwise: sort by ctime
+  383    -C                         list entries by columns
+  384        --color[=WHEN]         colorize the output.  WHEN defaults to `always'
+  385                                 or can be `never' or `auto'.  More info below
+  386    -d, --directory            list directory entries instead of contents,
+  387                                 and do not dereference symbolic links
+  388    -D, --dired                generate output designed for Emacs' dired mode
+  389    -f                         do not sort, enable -aU, disable -ls --color
+  390    -F, --classify             append indicator (one of */=>@|) to entries
+  391        --file-type            likewise, except do not append `*'
+  392        --format=WORD          across -x, commas -m, horizontal -x, long -l,
+  393                                 single-column -1, verbose -l, vertical -C
+  394        --full-time            like -l --time-style=full-iso
+  395    -g                         like -l, but do not list owner
+  396        --group-directories-first
+  397                               group directories before files.
+  398                                 augment with a --sort option, but any
+  399                                 use of --sort=none (-U) disables grouping
+  400    -G, --no-group             in a long listing, don't print group names
+  401    -h, --human-readable       with -l, print sizes in human readable format
+  402                                 (e.g., 1K 234M 2G)
+  403        --si                   likewise, but use powers of 1000 not 1024
+  404    -H, --dereference-command-line
+  405                               follow symbolic links listed on the command line
+  406        --dereference-command-line-symlink-to-dir
+  407                               follow each command line symbolic link
+  408                               that points to a directory
+  409        --hide=PATTERN         do not list implied entries matching shell PATTERN
+  410                                 (overridden by -a or -A)
+  411        --indicator-style=WORD  append indicator with style WORD to entry names:
+  412                                 none (default), slash (-p),
+  413                                 file-type (--file-type), classify (-F)
+  414    -i, --inode                print the index number of each file
+  415    -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  416    -k                         like --block-size=1K
+  417    -l                         use a long listing format
+  418    -L, --dereference          when showing file information for a symbolic
+  419                                 link, show information for the file the link
+  420                                 references rather than for the link itself
+  421    -m                         fill width with a comma separated list of entries
+  422    -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  423    -N, --literal              print raw entry names (don't treat e.g. control
+  424                                 characters specially)
+  425    -o                         like -l, but do not list group information
+  426    -p, --indicator-style=slash
+  427                               append / indicator to directories
+  428    -q, --hide-control-chars   print ? instead of non graphic characters
+  429        --show-control-chars   show non graphic characters as-is (default
+  430                               unless program is `ls' and output is a terminal)
+  431    -Q, --quote-name           enclose entry names in double quotes
+  432        --quoting-style=WORD   use quoting style WORD for entry names:
+  433                                 literal, locale, shell, shell-always, c, escape
+  434    -r, --reverse              reverse order while sorting
+  435    -R, --recursive            list subdirectories recursively
+  436    -s, --size                 print the allocated size of each file, in blocks
+  437    -S                         sort by file size
+  438        --sort=WORD            sort by WORD instead of name: none -U,
+  439                               extension -X, size -S, time -t, version -v
+  440        --time=WORD            with -l, show time as WORD instead of modification
+  441                               time: atime -u, access -u, use -u, ctime -c,
+  442                               or status -c; use specified time as sort key
+  443                               if --sort=time
+  444        --time-style=STYLE     with -l, show times using style STYLE:
+  445                               full-iso, long-iso, iso, locale, +FORMAT.
+  446                               FORMAT is interpreted like `date'; if FORMAT is
+  447                               FORMAT1<newline>FORMAT2, FORMAT1 applies to
+  448                               non-recent files and FORMAT2 to recent files;
+  449                               if STYLE is prefixed with `posix-', STYLE
+  450                               takes effect only outside the POSIX locale
+  451    -t                         sort by modification time
+  452    -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  453    -u                         with -lt: sort by, and show, access time
+  454                                 with -l: show access time and sort by name
+  455                                 otherwise: sort by access time
+  456    -U                         do not sort; list entries in directory order
+  457    -v                         natural sort of (version) numbers within text
+  458    -w, --width=COLS           assume screen width instead of current value
+  459    -x                         list entries by lines instead of by columns
+  460    -X                         sort alphabetically by entry extension
+  461    -1                         list one file per line
+  462  SELinux options:
+  463    --lcontext                 Display security context.   Enable -l. Lines
+  464                               will probably be too wide for most displays.
+  465    -Z, --context              Display security context so it fits on most
+  466                               displays.  Displays only mode, user, group,
+  467                               security context and file name.
+  468    --scontext                 Display only security context and file name.
+  469        --help     display this help and exit
+  470        --version  output version information and exit
+  471  SIZE may be (or may be an integer optionally followed by) one of following:
+  472  KB 1000, K 1024, MB 1000*1000, M 1024*1024, and so on for G, T, P, E, Z, Y.
+  473  Using color to distinguish file types is disabled both by default and
+  474  with --color=never.  With --color=auto, ls emits color codes only when
+  475  standard output is connected to a terminal.  The LS_COLORS environment
+  476  variable can change the settings.  Use the dircolors command to set it.
+  477  Exit status:
+  478   0  if OK,
+  479   1  if minor problems (e.g., cannot access subdirectory),
+  480   2  if serious trouble (e.g., cannot access command-line argument).
+  481  Report ls bugs to bug-coreutils@gnu.org
+  482  GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+  483  General help using GNU software: <http://www.gnu.org/gethelp/>
+  484  For complete documentation, run: info coreutils 'ls invocation'
+  485  [rebekahewaller@login2 files]$ ls -l
+  486  total 584
+  487  -rw-r--r-- 1 rebekahewaller bh_class  45119 Jan 22 17:21 const.txt
+  488  -rw-r--r-- 1 rebekahewaller bh_class 525464 Jan 23  2015 scarlet.txt
+  489  -rw-r--r-- 1 rebekahewaller bh_class   8685 Jan 22 17:45 usdeclar.txt
+  490  [rebekahewaller@login2 files]$ wc --help
+  491  Usage: wc [OPTION]... [FILE]...
+  492    or:  wc [OPTION]... --files0-from=F
+  493  Print newline, word, and byte counts for each FILE, and a total line if
+  494  more than one FILE is specified.  With no FILE, or when FILE is -,
+  495  read standard input.
+  496  GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+  497  General help using GNU software: <http://www.gnu.org/gethelp/>
+  498  For complete documentation, run: info coreutils 'wc invocation'
+  499  [rebekahewaller@login2 files]$ wc -l
+  500  files
+  501  *
+  502  [rebekahewaller@login2 files]$ wc -l *
+  503     872 const.txt
+  504    9120 scarlet.txt
+  505     176 usdeclar.txt
+  506   10168 total
+  507  [rebekahewaller@login2 files]$ find --help
+  508  Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+  509  default path is the current directory; default expression is -print
+  510  expression may consist of: operators, options, tests, and actions:
+  511  operators (decreasing precedence; -and is implicit where no others are given):
+  512        ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+  513        EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2
+  514  positional options (always true): -daystart -follow -regextype
+  515  normal options (always true, specified before other expressions):
+  516        -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf
+  517        --version -xdev -ignore_readdir_race -noignore_readdir_race
+  518  tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N
+  519        -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME
+  520        -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+  521        -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+  522        -nouser -nogroup -path PATTERN -perm [+-]MODE -regex PATTERN
+  523        -readable -writable -executable
+  524        -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N
+  525        -used N -user NAME -xtype [bcdpfls]
+  526        -context CONTEXT
+  527  actions: -delete -print0 -printf FORMAT -fprintf FILE FORMAT -print 
+  528        -fprint0 FILE -fprint FILE -ls -fls FILE -prune -quit
+  529        -exec COMMAND ; -exec COMMAND {} + -ok COMMAND ;
+  530        -execdir COMMAND ; -execdir COMMAND {} + -okdir COMMAND ;
+  531  Report (and track progress on fixing) bugs via the findutils bug-reporting
+  532  page at http://savannah.gnu.org/ or, if you have no web access, by sending
+  533  email to <bug-findutils@gnu.org>.
+  534  [rebekahewaller@login2 files]$ find files -size+50k
+  535  find: unknown predicate `-size+50k'
+  536  [rebekahewaller@login2 files]$ find files -size +50k
+  537  find: `files': No such file or directory
+  538  [rebekahewaller@login2 files]$ find -size +50k
+  539  ./scarlet.txt
+  540  [rebekahewaller@login2 files]$ type const.txt 
+  541  -bash: type: const.txt: not found
+  542  [rebekahewaller@login2 files]$ file const.txt 
+  543  const.txt: ASCII English text
+  544  [rebekahewaller@login2 files]$ md5sum *
+  545  f66a8165c621d48bac2216b2f31e8742  const.txt
+  546  4958553be1483e4cbd615ce5fa73f6ab  scarlet.txt
+  547  7f54939b30ae7b6d45d473a4c82a41b0  usdeclar.txt
+  548  [rebekahewaller@login2 files]$ df *
+  549  Filesystem            1K-blocks    Used  Available Use% Mounted on
+  550  hpc-nfs0-10g.hpc.arizona.edu:/gsfs1/rsgrps
+  551                       5368709120 4081664 5364627456   1% /rsgrps
+  552  hpc-nfs0-10g.hpc.arizona.edu:/gsfs1/rsgrps
+  553                       5368709120 4081664 5364627456   1% /rsgrps
+  554  hpc-nfs0-10g.hpc.arizona.edu:/gsfs1/rsgrps
+  555                       5368709120 4081664 5364627456   1% /rsgrps
+  556  [rebekahewaller@login2 files]$ du -ssh .
+  557  584K.
+  558  [rebekahewaller@login2 files]$ du -ssh *
+  559  48Kconst.txt
+  560  520Kscarlet.txt
+  561  16Kusdeclar.txt
+  562  [rebekahewaller@login2 files]$ wc --help
+  563  Usage: wc [OPTION]... [FILE]...
+  564    or:  wc [OPTION]... --files0-from=F
+  565  Print newline, word, and byte counts for each FILE, and a total line if
+  566  more than one FILE is specified.  With no FILE, or when FILE is -,
+  567  read standard input.
+  568    -c, --bytes            print the byte counts
+  569    -m, --chars            print the character counts
+  570    -l, --lines            print the newline counts
+  571        --files0-from=F    read input from the files specified by
+  572                             NUL-terminated names in file F;
+  573                             If F is - then read names from standard input
+  574    -L, --max-line-length  print the length of the longest line
+  575    -w, --words            print the word counts
+  576        --help     display this help and exit
+  577        --version  output version information and exit
+  578  Report wc bugs to bug-coreutils@gnu.org
+  579  GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+  580  General help using GNU software: <http://www.gnu.org/gethelp/>
+  581  For complete documentation, run: info coreutils 'wc invocation'
+  582  [rebekahewaller@login2 files]$ grep --help
+  583  Usage: grep [OPTION]... PATTERN [FILE]...
+  584  Search for PATTERN in each FILE or standard input.
+  585  PATTERN is, by default, a basic regular expression (BRE).
+  586  Example: grep -i 'hello world' menu.h main.c
+  587  Regexp selection and interpretation:
+  588    -E, --extended-regexp     PATTERN is an extended regular expression (ERE)
+  589    -F, --fixed-strings       PATT
+  590    -G, --basic-regexp        PATTERN is a basic regular expression 
+  591    -P, --perl-regexp         PATTERN is a Perl regular expression
+  592    -e, --regexp=PATTERN      use PATTERN for matching
+  593    -f, --file=FILE           obtain PATTERN from FILE
+  594    -i, --ignore-case         ignore 
+  595    -w, --word-regexp         force PATTERN to match only whole words
+  596    -x, --line-regexp         force PATTERN to match only whole lines
+  597    -z, --null-data           a data line ends in 0 byte, not new
+  598  Miscellaneous:
+  599    -s, --no-messages         suppress error messag
+  600    -v, --invert-match        select non-matching lines
+  601    -V, --version 
+  602        --help                display this help text and exit
+  603  Output contr
+  604    -m, --max-count=NUM       stop after NUM matches
+  605    -b, --byte-offset         p
+  606    -n, --line-number         print line number with output lines
+  607        --
+  608    -H, --with-filename       print the file name for each match
+  609    -
+  610        --label=LABEL         use LABEL
+  611    -o, --only-matching       show only the part of a line matching PATT
+  612    -q, --quiet, --silent     suppress all 
+  613        --binary-files=T
+  614                              TYPE is 'binary', 'text', or 'without-matc
+  615    -a, --text                equivalent to --binary-files=te
+  616    -I                        equivalent to --binary-fil
+  617    -d, --directories=ACTION  how to handle directories;
+  618          
+  619    -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+  620                              ACTION is 'read' or 'skip'
+  621    -r, --recursive        
+  622    -R, --dereference-recursive
+  623     
+  624        --include=FILE_PATTERN
+  625                        
+  626        --exclude=FILE_PATTERN
+  627                              skip files and directories matching FILE_PATTERN
+  628        --exclude-from=FILE   skip files matching any file pattern from FILE
+  629        --exclude-dir=PATTERN directories that match PATTERN will be skipped.
+  630    -L, --files-without-match print only names of FILEs containing no match
+  631    -l, --files-with-matches  print only names of FILEs con
+  632    -c, --count               print only a count of matching lines per FILE
+  633    -T, --initial-tab         make tabs line up (if needed)
+  634    -Z
+  635  Context control:
+  636    -B, --before-context=NUM  print NUM lines of leading context
+  637    -A, --after-context=NUM   print NUM lines of trailing context
+  638    -C, --context=NUM         print NUM lines of output context
+  639    -NUM                      same as --context=NUM
+  640        --group-separator=SEP use SEP as a group separator
+  641        --no-group-separator  use empty string as a group separator
+  642        --color[=WHEN],
+  643        --colour[=WHEN]       use markers to highlight the matching strings;
+  644                              WHEN is 'always', 'never', or 'auto'
+  645  git pull upstream master
+  646  ls
+  647  mkdir files
+  648  wget https://www.constitution.org/usdeclar.txt
+  649  wget https://www.usconstitution.net/const.txt
+  650  wget --help
+  651  wget -O=scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt 
+  652  rm =scarlet.txt
+  653  ls
+  654  rm const.txt usdeclar.txt 
+  655  rmdir files
+  656  ls
+  657  mkdir files
+  658  cd files
+  659  wget https://www.constitution.org/usdeclar.txt
+  660  wget https://www.usconstitution.net/const.txt
+  661  wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt
+  662  ls --help
+  663  ls -l
+  664  wc --help
+  665  wc -l
+  666  wc -l *
+  667  find --help
+  668  find files -size+50k
+  669  find files -size +50k
+  670  find -size +50k
+  671  type const.txt 
+  672  file const.txt 
+  673  md5sum *
+  674  df *
+  675  du -ssh .
+  676  du -ssh *
+  677  wc --help
+  678  grep --help
+  679  grep -i *
+  680  env
+  681  grep -i judge * | wc -l
+  682  grep -i -H human *
+  683  grep -i -l human *
+  684  wc -w scarlet ./scarlet.txt 
+  685  grep -i -o scarlet scarlet.txt | wc -l
+  686  head --help
+  687  head -n 15 * > foo
+  688  file foo
+  689  file --help
+  690  head -20 foo
+  691  wc -l foo
+  692  rm foo
+  693  ls
+  694  history > cmds
+  695  git add files
+  696  cd
+  697  ls
+  698  ssh hpc
+  699  git
+  700  cd biosys-analytics
+  701  ocelote
+  702  ssh hpc
+  703  env
+  704  pwd
+  705  ssh hpc
+  706  cd /rsgrps/bh_class/
+  707  ls
+  708  cd /biosys-analytics/
+  709  cd /rsgrps/biosys-analytics/
+  710  cd -
+  711  cd hurwitzlab/biosys-analytics/
+  712  cd files
+  713  pwd
+  714  ssh hpc
+  715  cd /biosys-analytics/
+  716  ocelote
+  717  ls
+  718  rm \]
+  719  ls
+  720  cd assignments/
+  721  ls
+  722  mv ../files/ 01-unix
+  723  cd 01-unix
+  724  ls
+  725  ls files
+  726  head cmds
+  727  ls -l
+  728  cd files/
+  729  head cmds
+  730  history
+  731  ls -l
+  732  ls -l > answers.txt
+  733  cat answers.txt 
+  734  pico answers.txt 
+  735  nano answers.txt 
+  736  git add -A .
+  737  git commit -m homework -a
+  738  git push
+  739  git config --global user.name "Bekah Waller"
+  740  git config --global user.email rebekahewaller@email.arizona.edu
+  741  cd assignments/01-unix/files
+  742  ls files
+  743  ls .
+  744  nano answers.txt 
+  745  git push answers.txt -m "assignment 1 complete"
+  746  git add answers.txt 
+  747  git commit -m homework answers.txt 
+  748  git push
+  749  git status
+  750  cd files
+  751  ls
+  752  cd assignments
+  753  cd files
+  754  ls 01-unix
+  755  cd files
+  756  ls files
+  757  cd 01-unix
+  758  cd files
+  759  ls .
+  760  nano answers.txt 
+  761  start answers.txt 
+  762  start --help
+  763  cd assignments/01-unix-grad
+  764  mk answers.txt
+  765  touch answers.txt
+  766  ls
+  767  nano answers.txt 
+  768  cd assignments/01-unix-grad
+  769  wget https://www.constitution.org/usdeclar.txt
+  770  wget https://www.usconstitution.net/const.txt
+  771  wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt
+  772  mv --help
+  773  mkdir files
+  774  ls .
+  775  mv const.txt scarlet.txt usdeclar.txt -t files
+  776  cd files
+  777  ls .
+  778  wc --help
+  779  grep . ' c' ' s' -i | wc -w
+  780  grep * ' c' ' s' -i | wc -w
+  781  grep *.txt ' c' ' s' -i | wc -w
+  782  grep -i ' c' ' s' scarlet.txt usdeclar.txt const.txt | wc -l
+  783  grep -i ' c' scarlet.txt usdeclar.txt const.txt | wc -l
+  784  grep -i ' c' *.txt | wc -l | head -5
+  785  grep -i ' s' *.txt | wc -l
+  786  grep -i ' c' *.txt | wc -w
+  787  grep -i ' s' *.txt | wc -w
+  788  grep --help
+  789  cd assignments/01-unix-grad/
+  790  grep -i -e ' c' -e ' s' *.txt | wc -w
+  791  grep -i ' c' -e ' s' *.txt | wc -w
+  792  grep -i *.txt -e ' c' -e ' s' | wc -w
+  793  -w
+  794  grep -ie [ce]
+  795  cd assignments/01-unix-grad/
+  796  ls
+  797  cd files
+  798  cd assignments/01-unix-grad/
+  799  grep -h
+  800  grep --help
+  801  grep -i -e ' c' -e ' s' *.txt | wc -w
+  802  grep -i ' c' OR ' s' *.txt | wc -l
+  803  grep -i ' c' or ' s' *.txt | wc -l
+  804  grep -i ' c\| s' *.txt | wc -l
+  805  grep -i *.txt ' c\| s' | wc -l
+  806  grep -i ' c'\|' s' | wc -l
+  807  grep -i ' c'\|' s' *.txt | wc -l
+  808  ls
+  809  cd files
+  810  grep -i ' c'\|' s' *.txt | wc -l
+  811  grep -i ' c\| s' *.txt | wc -l
+  812  grep -i [cs] *.txt | wc -l
+  813  grep -i [cs] *.txt | wc -w
+  814  grep -io [cs] *.txt | wc -w
+  815  grep -io [cs] *.txt 
+  816  grep -io [cs]* *.txt 
+  817  grep --help
+  818  grep -ieoc [cs]* *.txt
+  819  grep -ioc [cs]* *.txt
+  820  grep -ioc [c]\|[s] *.txt
+  821  grep -ioc c* *.txt
+  822  grep -ioc ' c*'\|' s*' *.txt
+  823  grep -ioc ' c'\|' s' *.txt
+  824  grep -ioc ' c\| s' *.txt
+  825  grep -io ' c\| s' *.txt
+  826  grep --help
+  827  grep 'people' *.txt
+  828  grep -io 'people' *.txt
+  829  grep -io 'peo*' *.txt
+  830  grep -io 'C''S' *.txt
+  831  grep -io 'C*''S*' *.txt
+  832  grep -io 'C' *.txt
+  833  grep --help
+  834  grep -iowc 'C' *.txt
+  835  grep -iow 'C' *.txt
+  836  grep -iow 'C*' *.txt
+  837  grep -iow ' c*\| s*' *.txt
+  838  cd assignments/01-unix-grad/files/
+  839  ls
+  840  find *.txt c*\|s*
+  841  find *.txt 'c*\|s*'
+  842  find -h
+  843  find 'c*' -or 's*' *.txt
+  844  find *.txt 'c*' -or 's*'
+  845  find . [c*] -or [s*]
+  846  find . [c*] [s*]
+  847  find . c* s*
+  848  ls --help
+  849  find . c* -or  s*
+  850  find . (c*) -or (s*)
+  851  find . ('c*') -or ('s*')
+  852  find . 'c*' -or 's*'
+  853  find -or . 'c*' 's*'
+  854  ls --help
+  855  ls .[cs]*
+  856  ls . [cs]*
+  857  wc --help
+  858  ls . [cs]* | wc -w
+  859  cd assignments/01-unix-grad
+  860  touch answers.txt
+  861  ls
+  862  nano answers.txt 
+  863  cd assignments/01-unix-grad/files/
+  864  ls
+  865  ls . [cs]*
+  866  ls . [cs]* | wc -w
+  867  ls --help
+  868  wc --help
+  869  find . [cs]* | wc -w
+  870  find . [cs]* > wc -w
+  871  find . [cs]* >> wc -w
+  872  find --help
+  873  head --help
+  874  grep --help
+  875  grep -xn .  [Article]* 
+  876  grep -xn .  Article'* 
+  877  scarlet.txt usdeclar.txt const.txt 
+  878  grep -xn scarlet.txt 'Article'*
+  879  grep -xn scarlet.txt [Article]*
+  880  grep scarlet.txt [Article]*
+  881  grep scarlet.txt "Article"
+  882  grep . "Article"
+  883  grep "Article" .
+  884  grep "Article" *.txt
+  885  grep "Article"* *.txt
+  886  grep -l "Article"* *.txt
+  887  grep -n "Article"* *.txt
+  888  grep -n "Article *" *.txt
+  889  grep -n "Article $" *.txt
+  890  grep -n "Article \d" *.txt
+  891  grep -n "Article %" *.txt
+  892  grep -n '"Article"\d' *.txt
+  893  grep -n '"Article" \d' *.txt
+  894  grep -n '"Article" %' *.txt
+  895  grep -n '"Article" $' *.txt
+  896  grep -n "Article" *.txt
+  897  grep -n "Article $0" *.txt
+  898  grep -n '"Article"$0' *.txt
+  899  grep -n 'Article[0-9]' *.txt
+  900  grep -n 'Article [0-9]' *.txt
+  901  grep 'Article [0-9]' *.txt
+  902  grep -x 'Article [0-9]' *.txt
+  903  grep -l 'Article [0-9]' *.txt
+  904  grep -w 'Article [0-9]' *.txt
+  905  head const.txt 
+  906  head -20 const.txt 
+  907  grep -cvP '\S' .
+  908  grep -cvP '\S' *.txt
+  909  grep -cvP '\S' const.txt
+  910  grep -io '[aeiou]'
+  911  grep -io '[aeiou]' *.txt
+  912  grep -io '^/[aeiou]' *.txt
+  913  grep -io '^\[aeiou]' *.txt
+  914  grep -io '\[aeiou]' *.txt
+  915  grep -io '^[aeiou]' *.txt
+  916  wc --help
+  917  grep -io '^[aeiou]' *.txt | wc -m
+  918  grep --help
+  919  awk --help
+  920  grep -io '^[aeiou]' *.txt | awk -v
+  921  grep -io '^[aeiou]' *.txt | awk
+  922  wc --w
+  923  wc --help
+  924  sort --help
+  925  grep -io '^[aeiou]' *.txt | sort
+  926  cd assignments/01-unix-grad/files/
+  927  grep --help
+  928  grep -io '^[aeiou]'| awk '{print $2}'
+  929  grep -io '^[aeiou]'*.txt | awk '{print $2}'
+  930  grep -io '^[aeiou]' *.txt | awk '{print $2}'
+  931  grep -io '^[aeiou]' *.txt | awk '{print $1}' | head -5
+  932  grep -io '^[aeiou]' scarlet.txt | head -5
+  933  wc --help
+  934  grep -io '^[aeiou]' scarlet.txt | wc -m | head -5
+  935  sort --help
+  936  grep -io '^[aeiou]' scarlet.txt | sort -d | head -5
+  937  grep -io '^[aeiou]' scarlet.txt | sort -d | head -50
+  938  grep -io '^[aeiou]' scarlet.txt | sort -d | tail -15
+  939  perl --help
+  940  tr --help
+  941  awk --help
+  942  uniq --help
+  943  grep -io '^[aeiou]' scarlet.txt | uniq
+  944  grep -io '^[aeiou]' scarlet.txt | sort uniq -ic
+  945  grep -io '^[aeiou]' scarlet.txt | sort | uniq -ic
+  946  grep -io '^[aeiou]' scarlet.txt | sort | uniq -c
+  947  sort --help
+  948  grep -io '^[aeiou]' scarlet.txt | sort -d | uniq -c
+  949  grep -io '^[aeiou]' scarlet.txt | sort -n | uniq -c
+  950  grep -o '^[AEIOUaeiou]' scarlet.txt | sort -n | uniq -c
+  951  grep -o '^[AEIOUaeiou]' scarlet.txt | sort | uniq -c
+  952  grep -io '^[aeiou]' scarlet.txt | sort | uniq -c
+  953  uniq --help
+  954  sort --help
+  955  grep -io '^[aeiou]' scarlet.txt | sort -g | uniq -c
+  956  grep -io '^[aeiou]' scarlet.txt | sort | uniq -c
+  957  grep --help
+  958  grep [cs]*.txt
+  959  grep -H [cs]*.txt
+  960  ls
+  961  grep [cs] *.txt
+  962  wc --help
+  963  wc -w
+  964  wc -w .
+  965  wc . -w
+  966  wc -w *.txt
+  967  wc -w ^[cs]*.txt
+  968  wc -w [cs]*.txt
+  969  history > cmds
